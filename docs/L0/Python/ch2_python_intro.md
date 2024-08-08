@@ -1,40 +1,4 @@
-# Chapter2: Python基础
 
-## 2.1 Python基础语法
-
-
-```python
-#这是一个单行注释
-'''
-这是一个多行注释
-这是一个多行注释
-'''
-print("hello world")#从hello world开始认识Python
-print(1+1)
-print(1+2)
-#print函数是Python中用于输出信息到控制台的内置函数。
-```
-
-    hello world
-    2
-    3
-    
-
-在python中，代码块不使用{}来表示，而是通过行与缩进来表示，同一个代码块有着相同的缩进。
-
-
-```python
-if True:
-    print('hello world!')
-    print('hello python!')
-else:
-    print('goodbye python!')
-    print('goodbye world!')
-```
-
-    hello world!
-    hello python!
-    
 
 python标识符(变量名，函数名)命名要求：
 * 标识符须要由字母，数字和下划线组成
